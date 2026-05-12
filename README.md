@@ -12,15 +12,32 @@ Una aplicación web de una sola página (SPA) diseñada para explorar el univers
 *   **Fetch API:** Consumo de datos asincrónico mediante `async/await`.
 *   **Git & GitHub:** Control de versiones y gestión del flujo de trabajo.
 
-## 📸 Capturas de Pantalla
-Aquí podés ver el funcionamiento de la aplicación:
+## ️ Instrucciones para Ejecutar el Proyecto Localmente
 
-1. **Vista Principal (Desktop):**
-   ![Vista Principal](./screenshots/desktop-view.png)
+Para ejecutar este proyecto en tu computadora, seguí estos pasos:
 
-2. **Detalle de Tarjetas e Indicadores de Estado:**
-   ![Detalle Tarjetas](./screenshots/cards-detail.png)
+1. **Cloná el repositorio:**
+   ```bash
+   git clone https://github.com/facubustamante196/rick-and-morty-explorer.git
+   ```
 
-*(Nota: Recordá crear una carpeta llamada `screenshots` en tu repo y subir ahí las imágenes con esos nombres).*
+2. **Navegá al directorio del proyecto:**
+   ```bash
+   cd rick-and-morty-explorer
+   ```
+
+3. **Abrí el archivo `index.html` en tu navegador web:**
+   - Simplemente hacé doble clic en `index.html` o abrilo desde tu navegador.
+   - Alternativamente, podés usar un servidor local para una mejor experiencia:
+     ```bash
+     python -m http.server 8000
+     ```
+     Luego, abrí `http://localhost:8000` en tu navegador.
+
+## 🌐 Link al Deploy
+El proyecto no ha sido desplegado aún. Para desplegarlo, podés usar servicios como GitHub Pages, Netlify o Vercel.
+
+## 🔧 API Utilizada y Créditos
+La aplicación consume la [Rick and Morty API](https://rickandmortyapi.com/documentation), una API pública gratuita que proporciona datos sobre personajes, episodios y locaciones de la serie Rick and Morty. Créditos a los creadores de la API por proporcionar este recurso educativo y entretenido.
 
 
