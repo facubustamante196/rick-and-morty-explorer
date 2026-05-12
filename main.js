@@ -12,7 +12,7 @@ async function fetchCharacters(page) {
     try {
         const response = await fetch(`https://rickandmortyapi.com/api/character?page=${page}`);
         const data = await response.json();
-        
+
         totalPages = data.info.pages;
         renderCards(data.results);
         updatePaginationUI();
@@ -48,7 +48,7 @@ function renderCards(characters) {
 
 // Manejo de la paginación
 function updatePaginationUI() {
-    pageInfo.innerText = `Página ${currentPage} de ${totalPages}`;
+    pageInfo.textContent = `Página ${currentPage} de ${totalPages}`;
     prevBtn.disabled = currentPage === 1;
     nextBtn.disabled = currentPage === totalPages;
 }

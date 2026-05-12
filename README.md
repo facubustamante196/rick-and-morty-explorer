@@ -23,10 +23,4 @@ Aquí podés ver el funcionamiento de la aplicación:
 
 *(Nota: Recordá crear una carpeta llamada `screenshots` en tu repo y subir ahí las imágenes con esos nombres).*
 
-## 🛠️ Ejecución Local
 
-Para ejecutar este proyecto en tu computadora, seguí estos pasos:
-
-1. **Cloná el repositorio:**
-   ```bash
-   git clone [https://github.com/facubustamante196/rick-and-morty-explorer.git](https://github.com/facubustamante196/rick-and-morty-explorer.git)
